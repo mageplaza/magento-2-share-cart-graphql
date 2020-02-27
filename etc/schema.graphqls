@@ -1,0 +1,11 @@
+## ======================================== Cart ===================================================================
+type Cart {
+    mp_share_cart_token: String @doc(description: "Mageplaza Share Cart Token") @resolver(class: "Mageplaza\\ShareCartGraphQl\\Model\\Resolver\\Cart\\Token")
+}
+
+## ======================================== Share Cart ===================================================================
+type Mutation {
+    MpShareCart (
+        mp_share_cart_token: String! @doc(description: "Mageplaza Share Cart Token")
+    ): Cart @resolver(class: "Mageplaza\\ShareCartGraphQl\\Model\\Resolver\\Cart\\Share")
+}
