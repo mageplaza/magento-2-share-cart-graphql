@@ -68,6 +68,8 @@ class Share extends AbstractShareCart
     ) {
         parent::resolve($field, $context, $info, $value, $args);
 
-        return $this->shareCartRepository->share($args['mp_share_cart_token']);
+        $cart = $this->shareCartRepository->share($args['mp_share_cart_token']);
+
+        return $cart ? ['model' => $cart] : $cart;
     }
 }
