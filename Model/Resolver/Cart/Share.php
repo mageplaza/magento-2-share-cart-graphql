@@ -28,7 +28,6 @@ use Magento\Framework\GraphQl\Config\Element\Field;
 use Mageplaza\ShareCart\Helper\Data;
 use Mageplaza\ShareCart\Model\ShareCartRepository;
 use Mageplaza\ShareCartGraphQl\Model\Resolver\AbstractShareCart;
-use Magento\QuoteGraphQl\Model\Cart\GetCartForUser;
 
 /**
  * Class Share
@@ -70,6 +69,6 @@ class Share extends AbstractShareCart
 
         $cart = $this->shareCartRepository->share($args['mp_share_cart_token']);
 
-        return $cart ? ['model' => $cart] : $cart;
+        return ['model' => $cart];
     }
 }
