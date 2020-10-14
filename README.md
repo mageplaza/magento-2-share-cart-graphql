@@ -1,6 +1,6 @@
-# Share Cart GraphQl
+# Magento 2 Share Cart GraphQL / PWA
 
-Mageplaza Share Cart Extension supports getting and pushing data on the website with GraphQl.
+Mageplaza Share Cart Extension supports getting and pushing data on the website with GraphQL.
 
 ## How to install
 
