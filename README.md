@@ -1,5 +1,7 @@
 # Magento 2 Share Cart GraphQL / PWA
 
+Magento 2 Share Cart GraphQL is now a part of the Mageplaza Share Cart extension that adds GraphQL features; this supports PWA Studio. In other words, Mageplaza Share Cart for Magento 2 now enables getting and pushing data on the website with GraphQL.
+
 [Mageplaza Share cart for Magento 2](https://www.mageplaza.com/magento-2-share-cart/) is an effective solution to let customers promote your products by sharing their carts with others. 
 
 The extension makes it easy for customers to share what they bought with their friends and family. The Share cart button will be displayed on the mini cart and shopping cart page. Customers can see the button right after adding the products to their cart and click on it to start sharing the cart. 
@@ -11,9 +13,6 @@ Through a few simple steps, the extension will be integrated into your Magento b
 In case customers want to ensure the items in their carts are exactly what they have searched for, they will need a summary to quickly review their carts. With Magento 2 Share Cart, you can display a “Text” button along with a “Share Cart” button to enable customers to view their cart summary with ease. The content behind this Text button summarizes the cart’s information with product name, price, quantity, and cart total. 
 
 The extension also enables customers to download their shopping cart in a PDF file. The PDF is displayed along with the Share cart, Text, and Update shopping cart button. This PDF file provides more details about the carts and products, including the store’s information, purchasing date, and purchasing summary. 
-
-**Another critical feature is that Magento 2 Share Cart GraphQL is a part of the Mageplaza Share Cart extension that adds GraphQL features; this supports PWA Studio.** In other words, Mageplaza Share Cart for Magento 2 now enables getting and pushing data on the website with GraphQL.
-
 
 ## 1. How to install
 
