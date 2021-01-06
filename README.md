@@ -1,4 +1,4 @@
-# Magento 2 Share Cart GraphQL / PWA
+# Magento 2 Share Cart GraphQL
 
 Magento 2 Share Cart GraphQL is now a part of the Mageplaza Share Cart extension that adds GraphQL features; this supports PWA Studio. In other words, Mageplaza Share Cart for Magento 2 now enables getting and pushing data on the website with GraphQL.
 
